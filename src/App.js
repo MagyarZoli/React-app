@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+import UseState from "./main/javascript/component/useState";
+import UseEffect from "./main/javascript/component/useEffect";
+import UseReducer from "./main/javascript/component/useReducer";
+import Uncontrolled from "./main/javascript/component/uncontrolled";
+import Controlled from "./main/javascript/component/controlled";
+import CustomHook from "./main/javascript/component/customeHook";
+import Fetching from "./main/javascript/fetch/fetching";
+import Displaying from "./main/javascript/fetch/displaying";
+import Handling from "./main/javascript/fetch/handling";
+import FetchingGraphQL from "./main/javascript/fetch/fetchingGraphQL";
+import Render from "./main/javascript/fetch/render";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Render />
     </div>
   );
 }
